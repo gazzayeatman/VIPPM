@@ -1,19 +1,30 @@
-<header class="header" role="banner">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<a href="$BaseHref" class="brand" rel="home">
-				<h1>$SiteConfig.Title</h1>
-				<% if $SiteConfig.Tagline %>
-				<p>$SiteConfig.Tagline</p>
-				<% end_if %>
-			</a>
-			<% if $SearchForm %>
-				<span class="search-dropdown-icon">L</span>
-				<div class="search-bar">
-					$SearchForm
+<div class="container-fluid header">
+	<div class="left-block-red">
+		&nbsp;
+	</div>
+	<div class="right-block-black">
+		&nbsp;
+	</div>
+	<div class="container navigation">
+		<div class="row">
+			<div class="col-md-2 logo">
+				$Logo
+			</div>
+			<div class="col-md-6">
+				<div class"row">
+					<div class="col-md-12">
+						<h1>$SiteConfig.Title</h1>
+					</div>
 				</div>
-			<% end_if %>
-			<% include Navigation %>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-1">
+						<h4>$SiteConfig.Tagline</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 nav-links">
+				<% include Navigation %>
+			</div>
 		</div>
 	</div>
-</header>
+</div>

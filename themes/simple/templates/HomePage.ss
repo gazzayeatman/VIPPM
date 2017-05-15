@@ -22,8 +22,33 @@
 	<body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 		<% include Header %>
 		<div class="container content">
-			$Content
-			$Form
+            <div class="row">
+                <div class="col-md-8">
+                    $Content
+			        $Form
+                </div>
+                <div class="col-md-4">
+                    <div class="row featured-list">
+                        <h2>VIP Property Management</h2>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Professional</li>
+                                <li>Personal</li>
+                                <li>Trustworthy</li>
+                                <li>Integrity</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Honest</li>
+                                <li>Positive</li>
+                                <li>Knowledgable</li>
+                                <li>Respectful</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 		<% include Footer %>
 		<% require javascript('framework/thirdparty/jquery/jquery.js') %>

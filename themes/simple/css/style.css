@@ -10,8 +10,8 @@
     top: 0;
     bottom: 0;
     display: block;
-    background-color: #C30000;
-    width: 25%;
+    background-color: #CA0814;
+    width: 15%;
     height: 100%;
     overflow: none;
 }
@@ -23,7 +23,7 @@
     bottom: 0;
     display: block;
     background-color: #000000;
-    width: 75%;
+    width: 85%;
     height: 100%;
     overflow: none;    
 }
@@ -41,7 +41,7 @@
 }
 
 .nav-links .primary ul li a:hover {
-    color: #C30000;
+    color: #CA0814;
 }
 
 .primary > span {
@@ -98,7 +98,7 @@
 }
 
 .content h1, .content h2, .content h3 {
-    color: #C30000;
+    color: #CA0814;
 }
 
 .footer span {
@@ -115,7 +115,7 @@
 }
 
 .footer a:hover {
-    color: #C30000;
+    color: #CA0814;
 }
 
 .featured-list li {
@@ -126,4 +126,23 @@
 
 .nav-links li {
     font-size: 1.2em;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.promo-box {
+    display: block;
+    border-style: solid;
+    border-color: #CA0814;
+    padding: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: #CA0814;    
+}
+
+.promo-box h4 {
+    color: #FFFFFF;
+    font-size: 1.6em;    
 }

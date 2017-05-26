@@ -7,22 +7,17 @@
 	</div>
 	<div class="container navigation">
 		<div class="row">
-			<div class="col-md-2 logo">
-				$Logo
+			<div class="col-md-2 logo col-sm-3 col-xs-6">
+				<a href="/">$Header.Logo</a>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-8 col-xs-5">
 				<div class"row">
 					<div class="col-md-12">
 						<h1>$SiteConfig.Title</h1>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-1">
-						<h4>$SiteConfig.Tagline</h4>
-					</div>
-				</div>
 			</div>
-			<div class="col-md-4 nav-links">
+			<div class="col-md-4 nav-links col-sm-1 col-xs-1">
 				<% include Navigation %>
 			</div>
 		</div>

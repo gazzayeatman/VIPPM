@@ -8,24 +8,12 @@ class HomePage extends Page {
         'RightText' => 'HTMLText'
     ];
 
-	private static $has_one = [
-        'Logo' => 'Image'
-    ];
-
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
          $fields->addFieldToTab(
             'Root.Main', 
             HTMLEditorField::create('RightText', 'Text that appears on the right','Metadata')
-        );
-        $fields->addFieldToTab(
-            'Root.Main',    
-            $uploadField = new UploadField(
-                $name = 'Logo',
-                $title = 'Upload a logo image'
-            ),
-            "Content"
         );
 		return $fields;
     }

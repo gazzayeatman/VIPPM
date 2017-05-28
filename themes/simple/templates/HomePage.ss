@@ -20,37 +20,35 @@
 		<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 	</head>
 	<body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
-		<% include Header %>
+        <% include Header %>
 		<div class="container content">
             <div class="row">
                 <div class="col-md-8">
                     $Content
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="promo-box">
+                                <h4>Maximum Returns, No Stress</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="promo-box">
+                                <h4>Your investment comes first</h4>
+                            </div>
+                        </div>
+                    </div>
 			        $Form
                 </div>
                 <div class="col-md-4">
                     <div class="row featured-list">
-                        <h2>VIP Property Management</h2>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Professional</li>
-                                <li>Personal</li>
-                                <li>Trustworthy</li>
-                                <li>Integrity</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Honest</li>
-                                <li>Positive</li>
-                                <li>Knowledgable</li>
-                                <li>Respectful</li>
-                            </ul>
+                        <div class="col-md-12">
+                            $RightText
                         </div>
                     </div>
                 </div>
             </div>
 		</div>
-		<% include Footer %>
+        <% include Footer %>
 		<% require javascript('framework/thirdparty/jquery/jquery.js') %>
 		<script type="text/javascript" src="{$ThemeDir}/javascript/script.js"></script>
 	</body>

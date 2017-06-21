@@ -11,7 +11,7 @@
     bottom: 0;
     display: block;
     background-color: #CA0814;
-    width: 15%;
+    width: 17%;
     height: 100%;
     overflow: none;
 }
@@ -23,7 +23,7 @@
     bottom: 0;
     display: block;
     background-color: #000000;
-    width: 85%;
+    width: 83%;
     height: 100%;
     overflow: none;    
 }
@@ -62,26 +62,19 @@
     background-color: #000000;
 }
 
-.logo img {
-    max-width: 200px;
-}
-
 .footer {
     position: relative;
     color: #FFFFFF;
+    overflow: hidden;
 }
 
-.footer iframe {
+.map iframe {
     position: absolute;
-    right: 0;
+    top: 0;
     bottom: 0;
-    overflow: none;
-    height: 100%;
-    width: 40%;
-}
-
-.map {
-    height: 100%;
+    right: 0;
+    left: 0;
+    width: 100%;
 }
 
 .footer li {
@@ -145,4 +138,26 @@
 .promo-box h4 {
     color: #FFFFFF;
     font-size: 1.6em;    
+}
+
+@media screen and (max-width: 1200px) {
+    .left-block-red {
+        display: none;
+    }
+
+    .header h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .header ul {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .map {
+        height: 240px;
+    }
 }

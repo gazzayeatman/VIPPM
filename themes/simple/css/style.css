@@ -68,12 +68,15 @@
     overflow: hidden;
 }
 
-.map iframe {
+.big-map iframe {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
+    width: 45%;
+}
+
+.small-map iframe {
     width: 100%;
 }
 
@@ -160,4 +163,8 @@
     .map {
         height: 240px;
     }
+}
+
+.pad24 {
+    padding: 24px;
 }

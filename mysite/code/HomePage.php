@@ -11,10 +11,15 @@ class HomePage extends Page {
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-         $fields->addFieldToTab(
+        $fields->addFieldToTab(
+            'Root.Main', 
+            HTMLEditorField::create('Content', 'Main Text')
+        );
+        $fields->addFieldToTab(
             'Root.Main', 
             HTMLEditorField::create('RightText', 'Text that appears on the right','Metadata')
         );
+        $fields->removeFieldFromTab("Root.Main","ElementArea");
 		return $fields;
     }
 }

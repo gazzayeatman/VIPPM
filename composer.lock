@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3c5fdd2bab1a9c0211bdf172da20ba0",
-    "content-hash": "469383f6d5bb69e957288be1959e8b6b",
+    "hash": "5bf7daf1496371567cc0dda4def3f241",
+    "content-hash": "1b5ce6acb949a0660c1d26232337a26a",
     "packages": [
         {
             "name": "composer/installers",
@@ -120,6 +120,190 @@
                 "zikula"
             ],
             "time": "2017-04-24 06:37:16"
+        },
+        {
+            "name": "dnadesign/silverstripe-elemental",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnadesign/silverstripe-elemental.git",
+                "reference": "7b153957c6d535148a65859e8c91162de5bd76a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnadesign/silverstripe-elemental/zipball/7b153957c6d535148a65859e8c91162de5bd76a5",
+                "reference": "7b153957c6d535148a65859e8c91162de5bd76a5",
+                "shasum": ""
+            },
+            "require": {
+                "heyday/silverstripe-versioneddataobjects": "~2.0",
+                "silverstripe-australia/addressable": "~1.0",
+                "silverstripe-australia/gridfieldextensions": "~1.0",
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1",
+                "silverstripe/widgets": "~1.1",
+                "undefinedoffset/sortablegridfield": "~0.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "suggest": {
+                "bluehousegroup/silverstripe-data-object-version-viewer": "Allows viewing of version history for data objects inside of the SilverStripe CMS"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "elemental"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Saelens",
+                    "email": "alexandre.saelens@dna.co.nz"
+                }
+            ],
+            "description": "Elemental pagetype and collection of Elements",
+            "keywords": [
+                "element",
+                "silverstripe",
+                "widget"
+            ],
+            "time": "2017-05-17 04:57:15"
+        },
+        {
+            "name": "heyday/silverstripe-versioneddataobjects",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heyday/silverstripe-versioneddataobjects.git",
+                "reference": "2599209a7ae1afb746e7cd8dc42a603d2fec4a60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heyday/silverstripe-versioneddataobjects/zipball/2599209a7ae1afb746e7cd8dc42a603d2fec4a60",
+                "reference": "2599209a7ae1afb746e7cd8dc42a603d2fec4a60",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Cam Spiers",
+                    "email": "camspiers@gmail.com"
+                }
+            ],
+            "description": "Provides Versioned DataObjects in SilverStripe",
+            "time": "2017-03-21 21:22:04"
+        },
+        {
+            "name": "silverstripe-australia/addressable",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-australia/silverstripe-addressable.git",
+                "reference": "2dbd6f7013561e4135850ee81999ece22ca73498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-addressable/zipball/2dbd6f7013561e4135850ee81999ece22ca73498",
+                "reference": "2dbd6f7013561e4135850ee81999ece22ca73498",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "3.*"
+            },
+            "replace": {
+                "ajshort/silverstripe-addressable": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "addressable",
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                },
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "nyeholt@silverstripe.com.au"
+                }
+            ],
+            "description": "SilverStripe addressable and geocoding module",
+            "keywords": [
+                "addressable",
+                "geocoding",
+                "silverstripe"
+            ],
+            "time": "2017-01-18 23:38:23"
+        },
+        {
+            "name": "silverstripe-australia/gridfieldextensions",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-australia/silverstripe-gridfieldextensions.git",
+                "reference": "5c1f9cca01dedbcefb8e56eedf51e0b33f7a1f9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/5c1f9cca01dedbcefb8e56eedf51e0b33f7a1f9e",
+                "reference": "5c1f9cca01dedbcefb8e56eedf51e0b33f7a1f9e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "replace": {
+                "ajshort/silverstripe-gridfieldextensions": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "gridfieldextensions",
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                },
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@silverstripe.com.au"
+                },
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-05-03 04:48:33"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -357,6 +541,86 @@
                 "siteconfig"
             ],
             "time": "2016-12-22 00:18:45"
+        },
+        {
+            "name": "silverstripe/widgets",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-widgets.git",
+                "reference": "df4844d45f55c56f8a7e1910357a51daf946ec82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/df4844d45f55c56f8a7e1910357a51daf946ec82",
+                "reference": "df4844d45f55c56f8a7e1910357a51daf946ec82",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "^3.2",
+                "silverstripe/framework": "^3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Widgets are small pieces of functionality such as showing the latest Comments or Flickr Photos. They normally display on the sidebar of your website.",
+            "keywords": [
+                "blog",
+                "silverstripe",
+                "widgets"
+            ],
+            "time": "2017-02-08 22:28:52"
+        },
+        {
+            "name": "undefinedoffset/sortablegridfield",
+            "version": "0.6.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/UndefinedOffset/SortableGridField.git",
+                "reference": "1750b7b45a3b140cbcdac76707c17fc98eb8e99c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/1750b7b45a3b140cbcdac76707c17fc98eb8e99c",
+                "reference": "1750b7b45a3b140cbcdac76707c17fc98eb8e99c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "sortablegridfield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ed Chipman",
+                    "homepage": "http://www.edchipman.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds drag and drop functionality to SilverStripe 3.0's GridField",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2017-04-21 12:32:43"
         }
     ],
     "packages-dev": [
@@ -783,6 +1047,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "dnadesign/silverstripe-elemental": 20,
         "phpunit/phpunit": 0
     },
     "prefer-stable": true,

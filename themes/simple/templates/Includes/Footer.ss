@@ -1,10 +1,18 @@
-<footer class="footer" role="contentinfo">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<div class="left">
-				<a href="$BaseHref" class="brand" rel="home">$SiteConfig.Title</a>
-				<span class="arrow">&rarr;</span> <% include Navigation %></div>
-			<small class="right"><a href="http://simple.innovatif.com/about/">Theme</a> by <a href="http://www.saratusar.com">Sara</a> (Innovatif) / Powered by <a href="http://silverstripe.org">SilverStripe</a></small>
+<div class="container-fluid footer pad24">
+	<div class="big-map hidden-sm hidden-xs">
+		$Footer.Map
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-xs-12 col-sm-6">
+				<h2>Contact Us</h2>
+				$Footer.ContactDetails
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="small-map hidden-md hidden-lg">
+					$Footer.Map
+				</div>
+			</div>
 		</div>
 	</div>
-</footer>
+</div>

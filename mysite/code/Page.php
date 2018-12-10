@@ -2,24 +2,23 @@
 
 class Page extends SiteTree {
 
-	private static $db = array(
-	);
-
-	private static $has_one = array(
-	);
-
 }
 
 class Page_Controller extends ContentController {
 
-	private static $allowed_actions = array (
-	);
-
 	public function init() {
 		parent::init();
-		Requirements::css($this->ThemeDir()."/bootstrap/css/bootstrap.min.css");
+		Requirements::css($this->ThemeDir()."/bootstrap-3.3.7/css/bootstrap.min.css");
+		Requirements::css($this->ThemeDir()."/font-awesome-4.7.0/css/font-awesome.min.css");
 		Requirements::css($this->ThemeDir()."/css/style.css");
-		Requirements::javascript($this->ThemeDir()."javascript/custom.js");
+		Requirements::css($this->ThemeDir()."/css/form.css");
 	}
 
+	 public function Header() {
+        return DataObject::get_one("Header");
+    }
+
+    public function Footer() {
+        return DataObject::get_one("Footer");
+    }
 }

@@ -1,25 +1,68 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
-	"require": {
-		"php": ">=5.3.3",
-		"silverstripe/cms": "3.7.3",
-		"silverstripe/framework": "3.7.1",
-		"silverstripe/siteconfig": "3.7.1",
-		"dnadesign/silverstripe-elemental": "1.6",
-		"silverstripe/userforms": "^4.4"
-	},
-	"require-dev": {
-		"phpunit/PHPUnit": "~3.7@stable"
-	},
-	"extra": {
-		"branch-alias": {
-			"3.x-dev": "3.5.x-dev"
-		}
-	},
-	"config": {
-		"process-timeout": 600
-	},
-	"prefer-stable": true,
-	"minimum-stability": "dev"
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "php": ">=5.6.0",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "4.3.0@stable",
+        "dnadesign/silverstripe-elemental": "^4",
+        "dorsetdigital/silverstripe-simpleinstagram": "^1.0",
+        "dnadesign/silverstripe-elemental-list": "^1.1",
+        "unclecheese/display-logic": "dev-master",
+        "symbiote/silverstripe-gridfieldextensions": "^3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "extra": {
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "extra": {
+        "project-files": [
+            "public/*"
+        ],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ], "public-files": [
+            "assets/*",
+            "themes/simple/css/*",
+            "themes/simple/bootstrap/css/*",
+            "themes/simple/bootstrap/fonts/*",
+            "themes/simple/bootstrap/js/*",
+            "themes/simple/font-awesome-4.7.0/css/*"
+        ],"expose": [
+            "themes/simple/bootstrap/",
+            "themes/simple/"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

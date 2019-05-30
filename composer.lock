@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b8b7a5f4ceb2f55b778ba709b918417",
+    "content-hash": "2157a084ccbfd53dde8de746086915c5",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1071,16 +1071,16 @@
         },
         {
             "name": "pgrimaud/instagram-user-feed",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pgrimaud/instagram-user-feed.git",
-                "reference": "2c9b1b7c24b5c799e15db0028b6b96e9fef06460"
+                "reference": "b149b13b4e908f6567266b5df688f899a3ebc75d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pgrimaud/instagram-user-feed/zipball/2c9b1b7c24b5c799e15db0028b6b96e9fef06460",
-                "reference": "2c9b1b7c24b5c799e15db0028b6b96e9fef06460",
+                "url": "https://api.github.com/repos/pgrimaud/instagram-user-feed/zipball/b149b13b4e908f6567266b5df688f899a3ebc75d",
+                "reference": "b149b13b4e908f6567266b5df688f899a3ebc75d",
                 "shasum": ""
             },
             "require": {
@@ -1127,7 +1127,7 @@
                 "sdk",
                 "social"
             ],
-            "time": "2019-05-18T10:13:08+00:00"
+            "time": "2019-05-29T09:57:45+00:00"
         },
         {
             "name": "psr/cache",
@@ -2458,7 +2458,7 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v3.4.27",
+            "version": "v3.4.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
@@ -2528,7 +2528,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.4.27",
+            "version": "v3.4.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -2592,16 +2592,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.2.8",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "e16b9e471703b2c60b95f14d31c1239f68f11601"
+                "reference": "988ab7d70c267c34efa85772ca20de3fad11c74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e16b9e471703b2c60b95f14d31c1239f68f11601",
-                "reference": "e16b9e471703b2c60b95f14d31c1239f68f11601",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/988ab7d70c267c34efa85772ca20de3fad11c74b",
+                "reference": "988ab7d70c267c34efa85772ca20de3fad11c74b",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2611,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -2638,20 +2638,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-07T11:40:08+00:00"
+            "time": "2019-05-24T12:50:04+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.27",
+            "version": "v3.4.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "61af5ce0b34b942d414fe8f1b11950d0e9a90e98"
+                "reference": "fa5d962a71f2169dfe1cbae217fa5a2799859f6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/61af5ce0b34b942d414fe8f1b11950d0e9a90e98",
-                "reference": "61af5ce0b34b942d414fe8f1b11950d0e9a90e98",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/fa5d962a71f2169dfe1cbae217fa5a2799859f6c",
+                "reference": "fa5d962a71f2169dfe1cbae217fa5a2799859f6c",
                 "shasum": ""
             },
             "require": {
@@ -2687,7 +2687,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-02T19:54:57+00:00"
+            "time": "2019-05-24T12:25:55+00:00"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -2928,7 +2928,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.27",
+            "version": "v3.4.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",

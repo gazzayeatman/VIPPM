@@ -10,7 +10,8 @@
         "dorsetdigital/silverstripe-simpleinstagram": "^1.0",
         "dnadesign/silverstripe-elemental-list": "^1.1",
         "unclecheese/display-logic": "dev-master",
-        "symbiote/silverstripe-gridfieldextensions": "^3"
+        "symbiote/silverstripe-gridfieldextensions": "^3",
+        "symfony/filesystem": "~2.8|~3.0|~4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"

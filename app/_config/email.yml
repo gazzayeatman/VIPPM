@@ -11,6 +11,6 @@ SilverStripe\Core\Injector\Injector:
       Port: 587
       Encryption: tls
     calls:
-      Username: [ setUsername, ['0602-122222",A'] ]
+      Username: [ setUsername, ['ses-smtp-user.20190602-122222'] ]
       Password: [ setPassword, ['KIAVIUOAZERDSPNWW4K,BNMUXDFGkXimhO0A4PMe3vMRMF/BL02KjeB5a7mxVif6'] ]
       AuthMode: [ setAuthMode, ['login'] ]
